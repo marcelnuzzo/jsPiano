@@ -1,0 +1,22 @@
+h1 {
+    text-align: center;
+  }
+  #audio-keyboard {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    margin: 1%;
+  }
+   
+  #audio-keyboard .touche {
+    width: 50px;
+    height: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 2px;
+    padding: 0;
+    border: 1px black solid;
+    cursor:pointer;
+  }
